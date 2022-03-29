@@ -1,0 +1,11 @@
+price_list:
+- 100
+- 110
+- 90
+- 85
+- 70
+- 10
+- 140
+- 200
+- 240
+adjust_inversion: true

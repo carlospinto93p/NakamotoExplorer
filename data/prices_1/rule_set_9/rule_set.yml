@@ -1,0 +1,2 @@
+- rule_name: AbsoluteStopLoss
+  threshold: 5

@@ -1,0 +1,100 @@
+no_rules_metrics:
+  main:
+    performance: 0.7
+    base_shares_performance: 0.0
+    quote_shares_performance: 0.0
+    profit: 140.0
+    base_shares_profit: 0.0
+    quote_shares_profit: 0.0
+    accumulated_commission: 0.0
+    all_commissions: 0.0
+  stats:
+    base-quote_var: 4786.111111111111
+    base-commission_var: 0.0
+    base_max: 1.0
+    base_min: 1.0
+    base_var: 0.0
+    quote_max: 100.0
+    quote_min: 100.0
+    quote_var: 0.0
+  rules:
+    n_distinct_rules_applied: 0
+    n_rules_applied: 0
+    n_sales: 0
+    n_purchases: 0
+    rules_count:
+      init: 1
+  strategy:
+    both_shares_improves: false
+simulation_metrics:
+  main:
+    performance: 0.05
+    base_shares_performance: -1.0
+    quote_shares_performance: 1.1
+    profit: 10.0
+    base_shares_profit: -1.0
+    quote_shares_profit: 110.0
+    accumulated_commission: -0.04999999999999716
+    all_commissions: 0.05
+  stats:
+    base-quote_var: 2662.222222222222
+    base-commission_var: 0.0
+    base_max: 1.0
+    base_min: 0.0
+    base_var: 0.17777777777777784
+    quote_max: 210.0
+    quote_min: 100.0
+    quote_var: 2151.1111111111113
+  rules:
+    n_distinct_rules_applied: 2
+    n_rules_applied: 2
+    n_sales: 1
+    n_purchases: 0
+    rules_count:
+      init: 1
+      AbsoluteTakeProfit: 1
+      sale: 1
+      end: 1
+  strategy:
+    both_shares_improves: false
+improvement_metrics:
+  absolute_diffs:
+    main:
+      performance: -0.6499999999999999
+      base_shares_performance: -1.0
+      quote_shares_performance: 1.1
+      profit: -130.0
+      base_shares_profit: -1.0
+      quote_shares_profit: 110.0
+      accumulated_commission: -0.04999999999999716
+      all_commissions: 0.05
+    stats:
+      base-quote_var: -2123.888888888889
+      base-commission_var: 0.0
+      base_max: 0.0
+      base_min: -1.0
+      base_var: 0.17777777777777784
+      quote_max: 110.0
+      quote_min: 0.0
+      quote_var: 2151.1111111111113
+  percent_diffs:
+    main:
+      performance: -0.9285714285714286
+      base_shares_performance: -.inf
+      quote_shares_performance: .inf
+      profit: -0.9285714285714286
+      base_shares_profit: -.inf
+      quote_shares_profit: .inf
+      accumulated_commission: -.inf
+      all_commissions: .inf
+    stats:
+      base-quote_var: -0.4437608821822403
+      base-commission_var: 0
+      base_max: 0.0
+      base_min: -1.0
+      base_var: .inf
+      quote_max: 1.1
+      quote_min: 0.0
+      quote_var: .inf
+  strategy_diffs:
+    both_shares_improves: false

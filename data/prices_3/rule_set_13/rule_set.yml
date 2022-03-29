@@ -1,0 +1,4 @@
+- rule_name: AbsoluteTakeProfit
+  threshold: 40
+- rule_name: AbsoluteStopLoss
+  threshold: 5

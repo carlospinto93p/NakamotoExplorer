@@ -1,0 +1,8 @@
+- rule_name: MarginSale
+  margin_threshold: 0.11
+  hold_percent: 0.04
+- rule_name: MarginPurchase
+  margin_threshold: 0.432
+  hold_percent: 0.5
+- rule_name: AbsoluteStopLoss
+  threshold: 5

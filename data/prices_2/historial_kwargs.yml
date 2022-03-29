@@ -1,0 +1,11 @@
+price_list:
+- 9
+- 8
+- 7
+- 6
+- 5
+- 4
+- 0.5
+- 2
+- 0.0001
+adjust_inversion: false
