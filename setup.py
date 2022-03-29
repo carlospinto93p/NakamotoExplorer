@@ -8,9 +8,9 @@ with open('requirements.in') as file:
 setup(
     name='nakamoto_explorer',
     version=__version__,
-    description='Explosion Fear Reignhood package: cryptocurrency manager - Explorer',
+    description='Trading bot dashboard',
     author='Carlos Pinto Pérez',
-    author_email='carlosp-p@hotmail.com',
+    author_email='carlospinto93p@gmail.com',
     packages=find_packages(where='src', include=['nakamoto_explorer*']),
     package_dir={'': 'src'},
     include_package_data=True,
