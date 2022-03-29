@@ -1,0 +1,272 @@
+
+:root {
+  --background: #1c1c1f;
+  --banner-background: #11083AFF;
+  --button-color: #404040;
+  --input-background: #cecece;
+  --menu-background: #282828;
+  --menu-border: #454a4d;
+  --table-cell-background: #303030;
+  --table-cell-background-2: #303030;
+  --text: #cccccc;
+  --selected-text: #e3e3e3;
+
+  --left-panel-width: 300px;
+  --left-panel-width-negative: -300px;
+  --left-box-width: 250px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+pre {
+  font-family: monospace;
+  font-size: 14px;
+  margin: 20px;
+  padding: 20px;
+  background-color: var(--menu-background);
+}
+
+button {
+  background-color: var(--button-color);
+  margin-left: 10px;
+  padding: 6px 15px;
+  color: var(--text);
+  border: 1px solid var(--menu-border);
+  border-radius: 4px;
+}
+
+button:active {
+  background-color: var(--menu-background);
+}
+
+.dashboard {
+  margin-left: var(--left-panel-width);
+}
+
+/*.dash-table-tooltip {*/
+/*  background-color: var(--menu-background) !important;*/
+/*  font-family: monospace;*/
+/*  color: var(--text) !important;*/
+/*}*/
+
+.left-panel {
+  float: left;
+  width: var(--left-panel-width);
+  margin-left: var(--left-panel-width-negative);
+}
+
+.content {
+  float: right;
+  width: 100%;
+}
+
+.clearing-div {
+  clear: both;
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"],
+input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: var(--input-background);
+  border: 1px solid var(--menu-border);
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+
+.nakamoto-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  width: 100%;
+  background: var(--banner-background);
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.nakamoto-banner > a > img {
+  height: 70px;
+  float: left;
+  padding: 10px 10px 0 10px;
+  transition-duration: 500ms;
+}
+
+/*#dash-logo > img {*/
+/*  height: 26px !important;*/
+/*  margin-top: 5px;*/
+/*  margin-left: 10px;*/
+/*}*/
+
+.nakamoto-banner > a > img:hover {
+  filter: brightness(2);
+}
+
+.nakamoto-banner > img {
+  height: 36px;
+  float: right;
+  margin: 10px;
+  transition-duration: 500ms;
+}
+
+.nakamoto-banner h2 {
+  font-size: 20pt;
+  font-weight: 200 !important;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 5px;
+  margin-left: 165px;
+}
+
+#banner-link {
+  text-decoration: none;
+  font-size: 10pt;
+  font-family: sans-serif;
+  color: var(--text);
+  border: solid 1px var(--text);
+  border-radius: 2px;
+  padding: 5px 15px;
+  font-weight: 100;
+  position: relative;
+  top: 15px;
+  float: right;
+  margin-right: 20px;
+  margin-left: 0;
+  transition-duration: 400ms;
+}
+
+#gitlab-link:hover {
+  color: var(--selected-text) !important;
+  border-color: var(--selected-text) !important;
+}
+
+.container {
+  position: relative;
+  top: 100px;
+  margin-bottom: 30px;
+}
+
+.page-settings {
+  float: left;
+  width: var(--left-box-width);
+  margin: 0 20px 30px 30px;
+  padding-bottom: 20px;
+  background: var(--menu-background);
+  border: 1px solid var(--menu-border);
+}
+
+.page-settings > p {
+  margin: 20px 0 30px 50px;
+  font-size: 20px;
+}
+
+.settings-row {
+  float: left;
+  width: 70%;
+  margin: 10px 40px;
+}
+
+.settings-row label {
+  font-size: 14px;
+}
+
+.settings-row div {
+  float: right;
+}
+
+.settings-row input {
+  height: 30px;
+  width: 55px;
+  font-size: 12px;
+}
+
+.page-settings input[type="checkbox"] {
+  height: 20px;
+  width: 25px;
+}
+
+.main-table {
+  float: left;
+  margin: 0 30px 30px 20px;
+}
+
+.rule-set {
+  float: left;
+  width: var(--left-box-width);
+  margin: 0 20px 30px 30px;
+  padding-bottom: 20px;
+  background: var(--menu-background);
+  border: 1px solid var(--menu-border);
+}
+
+.rule-set > p {
+  margin: 20px 0 10px 50px;
+}
+
+.rule {
+  float: left;
+  width: 70%;
+  margin: 10px 40px;
+  font-size: 14px;
+}
+
+.rule > p {
+  font-weight: bold;
+}
+
+.rule-parameters > label {
+  float: left;
+  width: 75%;
+  margin: 4px 0;
+}
+
+.rule-parameter-value {
+  float: right;
+  text-align: right;
+  width: 25%;
+  margin: 4px 0;
+}
+
+.price-list {
+  float: left;
+  margin: 0 30px 30px 20px;
+  width: 700px;
+}
+
+.metrics {
+  float: left;
+  margin: 0 30px 30px 20px;
+  width: 650px;
+}
+
+.metrics > label{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+::-webkit-scrollbar {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--menu-background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--table-cell-background-2);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--menu-border);
+}

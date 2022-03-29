@@ -1,0 +1,15 @@
+.idea/
+.pytest_cache/
+__pycache__/
+credentials/
+sketches/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+data/
+launchers/
+logs/
+*/logs/
+bat_commands/
+*/sketches
+src/*.egg-info
+res/
